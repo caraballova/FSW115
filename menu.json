@@ -1,0 +1,59 @@
+{
+    "menu": {
+        "appetizers": [{"spinach dip" :{
+            "ingredients": ["spinach", "parmesan cheese"],
+            "description": "Creamy spinach dip with Parmesan cheese. Served with freshly made white corn tortilla chips" 
+    }
+    },
+        {"queso dip w/ chips": {
+           "ingredients": ["cheese"],
+           "description": "Creamy cheese dip with freshly made white corn tortilla chips" 
+        }
+    }
+],
+    "cold sandwiches": [{"turkey club" :{
+        "ingredients": ["bacon", "lettuce", "tomato", "mayo", "turkey"],
+        "description": "Layers of deliciousness between toasted bread" 
+    }
+    },
+        {"tuna club" :{
+            "ingredients": ["cheese", "tuna"],
+            "description": "delicious tuna club served on bread of your choice"
+        }
+    }
+],
+    "hot sandwichs": [{"cheesesteak" :{
+        "ingredients": ["cheese", "steak", "onions", "peppers"],
+        "description": "Greatest philly cheesesteak with thinly sliced steak grilled to perfection"
+    }
+    },
+        {"meatball sub" :{
+            "ingredients": ["meatball", "marinara sauce", "mozzarella cheese"],
+            "description": "Meatballs with sauce and cheese on a toasted sub"
+        }
+    }
+],
+    "desserts": [{"Chocolate Meltdown" :{
+        "ingredients": ["fudge brownie", "peanuts"],
+        "description": "Warm fudge brownie with a peanuts and a chocolate gooey center"
+    }
+    },
+        {"caramel apple cupcake" :{
+            "ingredients": ["caramel", "apple", "vanilla cake"],
+            "description": "Cinnamon apples surrounding a vanilla cake with vanilla ice cream and a caramel drizzle"
+        }
+    }
+],
+    "drinks": [{"Milk Shake" :{
+        "ingredients": ["Vanilla", "Chocolate", "Strawberry"],
+        "description": "Creamy milkshake with your favorite flavor choice"
+    }
+    },
+        {"Fountain Drinks" :{
+            "ingredients": ["Soda"],
+            "description": "Your choice of Sprite, Fanta Orange, Coke, Pepsi"
+        }
+    }
+]
+    }
+    }
