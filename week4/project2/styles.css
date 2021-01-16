@@ -1,0 +1,15 @@
+#starships {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#species {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    text-align: center;
+}
