@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#header {
+    font-size: 50px;
+    color:violet
+}
+
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   /*  grid-gap: 10px; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+.people {
+    color: rgb(148, 31, 41);
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.planets {
+    color: rgb(21, 114, 56);
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.vehicles {
+    color: rgb(47, 17, 218);
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#people {
+    font-size: 25px;
+}
+#planet {
+    font-size: 25px;
+}
+#vehicles {
+    font-size: 25px;
+}
+
+#footer {
+    grid-column: 1 / 4;
+    font-size: 20px;
+    color: violet;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2.5rem;
+}
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    
+    #grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+       /*  grid-gap: 10px; */
+    }
+    
+    ul {
+        list-style-type: none;
+    }
+    
+    .people {
+        color: rgb(148, 31, 41);
+        grid-column: 1 / 4;
+        grid-row: 2 / 3;
+    }
+
+    #people {
+        font-size: 25px;
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+        margin-right: 10px;
+    }
+    
+    .planets {
+        color: rgb(21, 114, 56);
+        grid-column: 1 / 4;
+        grid-row: 4 / 5;
+    }
+
+    #planet {
+        font-size: 25px;
+        grid-column: 1 / 4;
+        grid-row: 5 / 6;
+        margin-right: 30px;
+    }
+    
+    .vehicles {
+        color: rgb(47, 17, 218);
+        grid-column: 1 / 4;
+        grid-row: 6 / 7;
+    }
+      
+    #vehicles {
+        font-size: 25px;
+        grid-column: 1 / 4;
+        grid-row: 7 / 8;
+        margin-right: 30px;
+    }
+
+    #footer {
+        position: relative;
+        text-align: center;
+        
+    }
+    
+    
+  }
